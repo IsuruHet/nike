@@ -14,7 +14,7 @@ import Nav from "./components/Nav";
 const App = () => (
   <main className="relative">
     <Nav />
-    <section className="pt-32">
+    <section className="pt-32 px-6 md:px-12 lg:px-8">
       <Hero />
     </section>
     <section className="px-14 py-20">
