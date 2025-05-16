@@ -29,13 +29,13 @@ const App = () => (
     <section className="px-14 py-20">
       <SpecialOffer />
     </section>
-    <section className="bg-blue-100 px-14 py-20">
+    <section className="bg-blue-50  px-14 py-20">
       <CustomerReviews />
     </section>
-    <section className="px-14 py-20">
+    <section className="px-14 pt-20 pb-5">
       <Subscribe />
     </section>
-    <section className="px-14 py-20">
+    <section className="pt-5">
       <Footer />
     </section>
   </main>
