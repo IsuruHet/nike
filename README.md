@@ -44,10 +44,10 @@ nike-ui/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/nike-ui-tailwind.git
+git clone https://github.com/IsuruHet/nike.git
 
 # 2. Navigate to project directory
-cd nike-ui-tailwind
+cd nike
 
 # 3. Install dependencies
 npm install
