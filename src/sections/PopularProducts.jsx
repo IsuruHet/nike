@@ -8,7 +8,7 @@ const PopularProducts = () => {
         <h2 className="text-4xl font-roboto font-bold">
           Our <span className="text-red-400">Popular</span> Products
         </h2>
-        <p className="lg:max-w-lg mt-2 font-roboto text-slate-400">
+        <p className="lg:max-w-lg mt-2 font-roboto text-slate-500">
           Experience top-notch quality and style with our sought-after
           selections. Discover a world of comfort, design, and value
         </p>

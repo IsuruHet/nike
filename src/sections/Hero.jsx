@@ -24,7 +24,7 @@ const Hero = () => {
           <br />
           <span className="text-red-400 inline-block mt-2">Nike</span> Shoes
         </h1>
-        <p className="font-roboto text-slate-400 text-base md:text-lg leading-7 mt-6 mb-10 sm:max-w-sm">
+        <p className="font-roboto text-slate-500 text-base md:text-lg leading-7 mt-6 mb-10 sm:max-w-sm">
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
