@@ -1,13 +1,116 @@
-# React + Vite
+# 🏀 Nike UI Clone (Tailwind CSS v4.1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Nike landing page UI clone**, built by following [JavaScript Mastery's](https://www.jsmastery.pro/) tutorial and customized using **Tailwind CSS v4.1** for a fully responsive and modern design.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** (Vite)
+- **Tailwind CSS v4.1**
+- **JavaScript (ES6+)**
+- **Heroicons / Custom Assets**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# nike
+## 📸 Preview
+
+![Nike UI Preview](./public/preview.png)
+
+> _Fully responsive Nike UI built with Tailwind 4.1_
+
+---
+
+## 📁 Folder Structure
+
+```
+nike-ui/
+├── public/
+│
+├── src/
+    ├── assets/        # Logos, images, icons
+│   ├── components/    # Reusable UI components
+│   ├── sections/      # Hero, PopularProducts, Footer, etc.
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/nike-ui-tailwind.git
+
+# 2. Navigate to project directory
+cd nike-ui-tailwind
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the dev server
+npm run dev
+```
+
+---
+
+## 📦 Tailwind CSS Setup
+
+Tailwind v4.1 comes with performance upgrades and smarter class support.
+
+**vite.config.js**
+
+```js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+});
+```
+
+---
+
+## 📱 Responsive Design
+
+- Mobile-first layout
+- Adaptive flex/grid
+- `max-sm`, `sm`, `md`, `lg`, `xl` breakpoints
+
+---
+
+## 📌 Features
+
+- ✅ Hero section with call-to-action
+- ✅ Product showcase (Popular Products)
+- ✅ Subscription form with responsive input
+- ✅ Footer with social links
+- ✅ Fully mobile-responsive with Tailwind v4.1 classes
+
+---
+
+## 🙌 Acknowledgements
+
+- [JavaScript Mastery](https://youtu.be/tS7upsfuxmo?si=0KugUM4vV1M6Y8Df) – for the original UI inspiration.
+- [Tailwind Docs](https://tailwindcss.com/docs/installation/using-vite) – utility-first CSS framework.
+
+---
+
+## 🧑‍💻 Author
+
+**Your Name**
+[GitHub](https://github.com/IsuruHet/nike) | [Portfolio](https://isuruhettiarachchi.live)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
